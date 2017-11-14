@@ -70,6 +70,7 @@ can be useful to know which optimizations we apply. This is a list:
   useful in combination with minification, which removes unused code paths.
 - __brfs:__ Statically inline calls to `fs.readFile()`. Useful to ship assets
   in the browser.
+- __babelify:__ Bring the latest browser features to _all_ browsers.
 
 ### CSS
 - __sheetify:__ extract all inline CSS from JavaScript, and include it in
